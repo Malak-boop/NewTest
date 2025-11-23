@@ -4,3 +4,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
 }
+::after {
+    content: "This is a pseudo-element added to the CSS file.";
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
